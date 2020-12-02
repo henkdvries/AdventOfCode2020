@@ -5,11 +5,9 @@ ints = [int(i) for i in ints]
 ints = sorted(ints)
 quicksrc = set(ints)
 
-for item in ints:
+for item in quicksrc:
     mask = 2020-item
     if(mask in quicksrc):
-        print(item)
-        print(mask)
         print(mask*item)
 
 

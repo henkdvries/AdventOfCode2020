@@ -6,9 +6,9 @@ ints = sorted(ints)
 quicksrc = set(ints)
 
 
-for item in ints:
+for item in quicksrc:
     mask = 2020-item
-    for ding in ints:
+    for ding in quicksrc:
         mmask = mask - ding
         if(mmask in quicksrc):
             print(ding*item*mmask)
