@@ -1,4 +1,3 @@
-import re
 with open('data.txt', 'r') as reader:
     passw = reader.readlines()
 
